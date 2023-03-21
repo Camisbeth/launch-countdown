@@ -106,35 +106,35 @@ body {
   }
 }
 
-@media (max-width: 432px) {
-  .section {
-    .sectionCards {
-      width: 20%;
-      gap: 4px;
+// @media (max-width: 432px) {
+//   .section {
+//     .sectionCards {
+//       width: 20%;
+//       gap: 4px;
 
-      .sectionDaysAndNumbers {
-        width: calc((100% / 4) - 2px);
-        min-width: 100px;
-      }
-    }
-  }
-}
+//       .sectionDaysAndNumbers {
+//         width: calc((100% / 4) - 2px);
+//         min-width: 100px;
+//       }
+//     }
+//   }
+// }
 
-@media (max-width: 392px) {
-  .section {
-    .sectionCards {
-      width: 8%;
-      gap: 2px;
+// @media (max-width: 392px) {
+//   .section {
+//     .sectionCards {
+//       width: 8%;
+//       gap: 2px;
 
-      .sectionDaysAndNumbers {
-        width: calc((100% / 4) - 1px);
-        min-width: 90px;
-      }
-    }
-  }
-}
+//       .sectionDaysAndNumbers {
+//         width: calc((100% / 4) - 1px);
+//         min-width: 90px;
+//       }
+//     }
+//   }
+// }
 
-@media (max-width: 375px) {
+@media (max-width: 596px) {
   .section {
     .sectionCards {
       display: flex;
