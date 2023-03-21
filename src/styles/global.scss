@@ -133,3 +133,18 @@ body {
     }
   }
 }
+
+@media (max-width: 375px) {
+  .section {
+    .sectionCards {
+      display: flex;
+      flex-direction: column;
+      width: 70px / 2 + 50px;
+
+      .sectionDaysAndNumbers {
+        width: calc(100% / 4);
+        min-width: 100px;
+      }
+    }
+  }
+}
