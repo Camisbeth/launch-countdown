@@ -107,6 +107,9 @@ body {
 }
 
 @media (max-width: 596px) {
+  body {
+    padding-top: 3%;
+  }
   .section {
     .sectionCards {
       display: flex;
