@@ -125,11 +125,11 @@ body {
     .sectionCards {
       width: 10%;
       gap: 2px;
-    }
 
-    .sectionDaysAndNumbers {
-      width: auto;
-      min-width: 30px;
+      .sectionDaysAndNumbers {
+        width: calc((100% / 4) - 1px);
+        min-width: 90px;
+      }
     }
   }
 }
