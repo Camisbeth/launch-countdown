@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/global.scss";
+import "./styles/variables.scss";
+import Number from "./components/Number/Number";
 
 function App() {
+  const targetDate = new Date("June 17, 2023 23:59:59").getTime();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <section className="section">
+      <h1 className="title">MY BIRTHDAY</h1>
+
+      <Number targetDate={targetDate} />
+
+      <figure className="figureStars">
+        <img className="imgStars" src="/images/bg-stars.svg" />
+      </figure>
+
+      <section className="sectionSocialMedia">
+        <a href="https://www.linkedin.com/in/camila-cor%C3%A9/" target="_blank">
+          <img src="/images/linkedin.png" />
         </a>
-      </header>
-    </div>
+        <a href="https://github.com/Camisbeth" target="_blank">
+          <img src="/images/github.png" />
+        </a>
+      </section>
+
+      <figure className="figureHills">
+        <img className="imgHills" src="/images/pattern-hills.svg" />
+      </figure>
+    </section>
   );
 }
 
