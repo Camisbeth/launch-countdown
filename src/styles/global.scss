@@ -120,15 +120,15 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 392px) {
   .section {
     .sectionCards {
-      width: 10%;
+      width: 8%;
       gap: 2px;
 
       .sectionDaysAndNumbers {
         width: calc((100% / 4) - 1px);
-        min-width: 88px;
+        min-width: 90px;
       }
     }
   }
